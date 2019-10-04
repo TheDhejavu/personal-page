@@ -1,0 +1,34 @@
+{
+    "home":{
+        "fullname": "Akinola Ayodeji",
+        "location": {
+            "continent": "West Africa",
+            "country": "Nigeria"
+        },
+        "summary":"CS student with a keen interest in AI & web technologies. Currently a Software Engineering intern at Patricia"
+    },
+    "about":{
+        "summary": "I'm a pragmatic person",
+        "text": "Leveraging technology such as artificial intelligence , webvr and maps to help africa Millennials become better humans through solutions for better education , living & travel. Understanding the concept of data analysis in order to help develop solution that can help make africa more livable.Building business solutions that has the potential of effecting real change in africa E.G technology for health and poverty"
+    },
+    "skills":{
+        "summary": "On Demand skills",
+        "lists":["Public speaking", "Writing","Research","Data Analysis", "Natural Language Processing","Docker","Machine Learning","Python","Nodejs","Javascript","GoLang"]
+    },
+    "work":{
+        "summary":"",
+        "lists":[
+            {
+                "title": "",
+                "link":"",
+                "description":""
+            }
+        ]
+    },
+    "contact":{
+        "email": "akinayodeji4all@gmail.com",
+        "twitter": "thedhejavu",
+        "linkedin": "Akinola Ayodeji",
+        "github": "thedhejavu"
+    }
+}

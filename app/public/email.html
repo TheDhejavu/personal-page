@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600&display=swap" rel="stylesheet">
+    <title>E-Mail Confimation</title>
+
+    <style type="text/css" rel="stylesheet" media="all">
+    /* Base ------------------------------ */
+        
+    *{
+      margin: 0;
+      padding: 0;
+      -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+     -moz-box-sizing: border-box; /* Firefox, other Gecko */
+     -o-box-sizing: border-box;
+      box-sizing: border-box;
+
+    }
+
+
+    body {
+      width: 100% !important;
+      height: 100%;
+      margin: 0;
+      background-color: #F2F4F6;
+      -webkit-text-size-adjust: none;
+      font-family: 'Poppins', "Segoe UI",Helvetica,Arial,sans-serif;
+        background: #D9F2FF;
+    }
+
+    p,
+    ul,
+    ol,
+    blockquote {
+      text-align: left;
+    }
+
+    a img {
+      border: none;
+    }
+
+    td {
+      word-break: break-word;
+    }
+   
+
+    html, body, div, span, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, em, img,strong, i,ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, embed,
+    figure, figcaption, footer, header, hgroup,
+    nav, section,  audio, video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        vertical-align: baseline;
+    }
+    /* HTML5 display-role reset for older browsers */
+    article, aside, details, figcaption, figure,
+    footer, header, hgroup, nav, section {
+        display: block;
+    }
+    input, button{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    ol, ul{
+        list-style: none;
+    }
+
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+    a{
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* Layout ------------------------------ */
+    .email-wrapper{
+        background: #D9F2FF;
+        display:block;
+        width:100%;
+        padding:50px 30px;
+        font-family: 'Poppins', "Segoe UI",Helvetica,Arial,sans-serif;
+    }
+    .email-wrapper__body{
+        display:block;
+        max-width: 808.98px;
+        margin:0 auto;
+        width:100%;
+        background: #fff;
+    }
+    .email-header{
+        width:100%;
+        min-height: 203px;
+        display: block;
+    }
+    .email-header svg{
+        position: relative;
+        top:-5px;
+    }
+    
+    .email-content{
+        padding:20px 10px;
+        display: block;
+        margin:0 auto;
+        max-width:800px;
+        background: #fff;
+    }
+    .button-link{
+        width: 240px;
+        background: #2D9CDB;
+        border-radius: 5px;
+        margin:22px 0;
+        padding:15px 30px;
+        font-weight:500;
+        display:inline-block;
+        color:#fff;
+        cursor: pointer;
+        text-align: center;
+        transition:0.5s
+    }
+    .button-link:hover{
+        opacity:0.8;
+    }
+    .footer{
+        color:#fff;
+        min-height: 400px;
+        background: #2D9CDB;
+        width:100%;
+        display:block;
+        text-align: center;
+        padding:20px;
+    }
+    
+    .footer .text{
+        padding:20px 10px;
+        text-align: center;
+        font-size:14px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    .footer a{
+        color:#fff;
+    }
+    .text img{
+        position: relative;
+        top:-20px;
+        margin:2px 20px;
+    }
+
+    .message{
+        line-height: 2rem;
+        font-weight:700;
+    }
+    </style>
+  </head>
+  <body>
+    <table class="email-wrapper" cellspacing="0" cellpadding="0" border="0">
+        <tbody style="display: block" class="email-wrapper__body">
+            <tr style="display: block">
+                <td  valign="top" style="display: block">
+
+                    <table class="email-header" cellspacing="0" cellpadding="0" border="0" style="display: block">
+                        <tbody style="display: block">
+                            <tr style="display: block">
+                                <td style="display: block" >
+                                  <img width="104.4%" src="https://res.cloudinary.com/dxpz6b4je/image/upload/v1570104635/header_orvxc9.png">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <!-- EMAIL CONTENT -->
+                    <table class="email-content" cellspacing="0" cellpadding="0" border="0">
+                        <tbody>
+                            <tr>
+                                <td >
+                                    <h1 style="padding:20px 0">See what your team is talking about 
+                                            in Slack</h1>
+                                    <p style="padding:10px 0">
+                                            We’re about to enter October and I realized - o’ boy, <strong>it’s only 96 days
+                                            remaining until 2020.</strong>
+                                    </p>
+                                    <p style="padding:10px 0">Head over to Slack to join the conversations that matters most to you.</p>
+                                    <a class="button-link"> Browse all products</a>
+                                    <p style="padding:10px 0">Looking for the basics on using Slack? Three conversation types help you collaborate online as easily ad you do in person:</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                    <table class="email-content" cellspacing="0" cellpadding="0" border="0" style="display: block">
+                        <tbody style="display: block">
+                            <tr style="display: block">
+                                <td style="display: block">
+                                    
+                                    
+                                </td>
+                                <td style="display: block" class="message">
+                                    
+                                    <p style="padding:20px 0">Have a wonderful weekend!</p>
+                                    <p>From Fejiro with 
+                                        </p>
+                                    <p style="padding:20px 0">
+                                        <img width="163" height="34" src="https://res.cloudinary.com/dxpz6b4je/image/upload/v1570104702/sign_ulodcb.png">
+                                    </p>
+                                    <p style="font-size:15px">CEO,PATRICIA</p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    
+                    
+                    <!-- START FOOTER -->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="footer">
+                        <tr style="display: block">
+                            <td align="center" style="display: block;text-align: center">
+                                <p class="text"> Download the Patricia All - in - One Mobile App on your app store </p>
+                                <p class="text">
+                                    <span>
+                                        <img width="160" height="50" src="https://res.cloudinary.com/dxpz6b4je/image/upload/v1570104680/app_store_swlz5a.png">
+                                    </span>
+                                    <span>
+                                       
+                                       <img width="160" height="50"  src="https://res.cloudinary.com/dxpz6b4je/image/upload/v1570104653/g_play_dpftkf.png" >         
+                                </span>
+                                    
+                                </p>
+                                <p class="text">
+                                    <a href="#">Privacy Policy</a>  •   <a href="#">Help Center</a>  •   <a href="">Become a Sponsor</a>
+                                </p>
+                                <p class="text">
+                                    You are receiving this email because you signed up for Pocket.
+                                    Want to change how often you receive Pocket Hits newsletters? <a href="#" style="text-decoration: underline">Unsubscribe</a> or <a href="#" style="text-decoration: underline">Change Subscriber Option</a>
+                                </p>
+                                <p class="text" styles="padding:50px 10px">
+                                    Swiss Trade Drive, Lekki Epe Expressway, Lagos LA 110001, NIGERIA
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                  <!-- END FOOTER -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+  </body>
+</html>

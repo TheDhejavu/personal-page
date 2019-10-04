@@ -1,0 +1,167 @@
+@import "../../assets/styles/common.scss";
+
+.site-layout__main{
+    padding-left:300px;
+    @include MQ($breakpoint-sm){
+        padding:0;
+    }
+}
+.header{
+    position: fixed;
+    width:100%;
+    width: calc(100% - 300px);
+    .header-panel{
+        position: relative;
+    }
+    .toggle-button{
+        background: none;
+        border:none;
+        font-size:2rem;
+        padding:10px;
+        cursor: pointer;
+        display:none;
+        z-index: 9999;
+        position: relative;
+        outline: none;
+        @include MQ($breakpoint-sm){
+            display:block;
+        }
+    }
+    .customize-button{
+        background:#fff;
+        border-radius:0px;
+        padding:10px 20px;
+        font-weight:500;
+        font-size:1rem;
+        margin:10px;
+        box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
+        border:none;
+        cursor: pointer;
+        outline: none
+    }
+}
+.section{
+    min-height: 200px;
+    .section-panel{
+        padding:100px 20px;
+        max-width: 1100px;
+        margin: 0 auto;
+        @include MQ($breakpoint-sm){
+            padding:10px 15px;
+        }
+    }
+    .heading, .sub-heading{
+        font-weight: 700;
+        font-size: 2.5rem;
+        line-height: 3rem;
+        color:$primary-color;
+   }
+   .heading{
+       color:$blue;
+       padding:5px 0;
+   }
+   .sub-heading{
+       padding:20px 0;
+       @include MQ($breakpoint-sm){
+            font-size:1.6rem;
+            line-height: 2.5rem;
+            font-weight: 500;
+            font-family: $primary-font-family
+        }
+   }
+   .slant-text{
+       font-size:0.8rem;
+       color:$primary-color;
+       font-style: italic;
+       letter-spacing: 0.4rem;
+       font-weight: 300;
+       opacity: 0.5;
+       a{
+           color:$blue;
+       }
+   }
+   .text{
+       padding:30px 0;
+       letter-spacing: 0.03rem;
+   }
+}
+.home-section{
+    padding-top:70px;
+}
+.about-section{
+    .text{
+        font-size:1.2rem;
+    }
+}
+.skills-section{
+    .skill-lists{
+        padding-top:30px;
+        li{
+            display: inline-block;
+            margin:20px 10px;
+            letter-spacing: 0.03rem;
+            background: #f4f4f4;
+            font-size:1.2rem;
+            padding:20px 30px;
+        }
+    }
+}
+
+.my-work-section{
+    .my-work-container{
+        padding-top:30px;
+    }
+    .card{
+        box-sizing: border-box;
+        border:1px solid #f4f4f4;
+        margin:20px 10px;
+        background: #f4f4f4;
+        .title{
+            padding:10px 0;
+        }
+        .description{
+            padding:3px 0;
+            font-size:1rem;
+            letter-spacing: 0.03rem;
+            line-height: 1.6rem;
+        }
+    }
+    .card-panel{
+        padding:20px;
+    }
+}
+
+.contact-section{
+    .contact-lists{
+        padding-top:30px;
+        li {
+            display: inline-block;
+            a{
+                padding:10px 20px;
+                display:inline-block;
+                margin:10px;
+                border:1px solid #ddd;
+                transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+                &:hover{
+                    background:$blue;
+                    border:1px solid $blue;
+                    color:#fff;
+                    .uil{
+                        color:#fff;
+                    }
+                }
+            }
+        }
+        .uil-github{
+            color:$blue;
+        }
+        .uil-linkedin, .uil-twitter{
+            color:$blue
+        }
+        
+    }
+}
+.footer{
+    padding: 20px;
+    font-size:0.8rem;
+}
