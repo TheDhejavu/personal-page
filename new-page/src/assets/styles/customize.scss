@@ -1,0 +1,235 @@
+@import "./common.scss";
+
+.site-dark{
+    background: #000;
+    .header{
+        background:#000;
+    }
+    .sidebar{
+        background: #000;
+        li{
+            a{
+                color:#fff;
+            }
+            a.active{
+                background: rgba(255,255,255,0.1);
+            }
+        }
+    }
+    .theme-text{
+        color:#fff !important;
+    }
+    .customize-button{
+        border:1px solid #fff;
+        color:#fff;
+    }
+    .card, .skill-lists li{
+        border:1px solid rgba(255,255,255,0.04);
+        background:rgba(255,255,255,0.1);
+    }
+    .contact-lists{
+        li{
+            a{
+                color:#fff;
+                background: rgba(255,255,255,0.1);
+                border:1px solid rgba(255,255,255,0.04);
+            }
+        }
+    }
+}
+.color-white{
+    .color-text{
+        color:#fff !important
+    }
+    .customize-button{
+        border: 1px solid #fff;
+        color:#fff;
+        &:hover{
+            background: #fff;
+            color:#000;
+        }
+    }
+    .primary-button{
+        border:2px solid #fff;
+        color:#fff;
+        &:hover{
+            background: #fff;
+            color:#000;
+        }
+    }
+    .contact-lists{
+        li{
+            a{
+
+                &:hover{
+                    background: #fff;
+                    color:#000;
+                    border:1px solid #fff;
+                    .uil{
+                        color:#000;
+                    }
+                }
+            }
+        }
+    }
+}
+.color-blue{
+    .color-text{
+        color:$blue 
+    }
+    .customize-button{
+        border: 1px solid $blue;
+        color:$blue;
+        &:hover{
+            background: $blue;
+            color:#fff;
+        }
+    }
+    .primary-button{
+        border:2px solid $blue;
+        color:$blue;
+        &:hover{
+            background: $blue;
+            color:#fff;
+        }
+    }
+    .contact-lists{
+        li{
+            a{
+                &:hover{
+                    background: $blue;
+                    border:1px solid $blue;
+                }
+            }
+        }
+    }
+}
+
+.color-green{
+    .color-text{
+        color:$green 
+    }
+    .customize-button{
+        border: 1px solid $green;
+        color:$green;
+        &:hover{
+            background: $green;
+            color:#fff;
+        }
+    }
+    .primary-button{
+        border:2px solid $green;
+        color:$green;
+        &:hover{
+            background: $green;
+            color:#fff;
+        }
+    }
+    .contact-lists{
+        li{
+            a{
+                &:hover{
+                    background: $green;
+                    border:1px solid $green;
+                }
+            }
+        }
+    }
+}
+
+.color-red{
+    .color-text{
+        color:$red
+    }
+    .customize-button{
+        border: 1px solid $red;
+        color:$red;
+        &:hover{
+            background: $red;
+            color:#fff;
+        }
+    }
+    .primary-button{
+        border:2px solid $red;
+        color:$red;
+        &:hover{
+            background: $red;
+            color:#fff;
+        }
+    }
+    .contact-lists{
+        li{
+            a{
+                &:hover{
+                    background: $red;
+                    border:1px solid $red;
+                }
+            }
+        }
+    }
+}
+
+
+.color-pink{
+    .color-text{
+        color:$pink
+    }
+    .customize-button{
+        border: 1px solid $pink;
+        color:$pink;
+        &:hover{
+            background: $pink;
+            color:#fff;
+        }
+    }
+    .primary-button{
+        border:2px solid $pink;
+        color:$pink;
+        &:hover{
+            background: $pink;
+            color:#fff;
+        }
+    }
+    .contact-lists{
+        li{
+            a{
+                &:hover{
+                    background: $pink;
+                    border:1px solid $pink;
+                }
+            }
+        }
+    }
+}
+
+.color-purple{
+    .color-text{
+        color:$purple
+    }
+    .customize-button{
+        border: 1px solid $purple;
+        color:$purple;
+        &:hover{
+            background: $purple;
+            color:#fff;
+        }
+    }
+    .primary-button{
+        border:2px solid $purple;
+        color:$purple;
+        &:hover{
+            background: $purple;
+            color:#fff;
+        }
+    }
+    .contact-lists{
+        li{
+            a{
+                &:hover{
+                    background: $purple;
+                    border:1px solid $purple;
+                }
+            }
+        }
+    }
+}
