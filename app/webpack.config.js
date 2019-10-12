@@ -1,7 +1,5 @@
 var path = require('path');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-// const { resolveFromRootDir } = require('./node_modules/webpack/')
 
 module.exports = {
   entry: path.join(__dirname, "src", "app.js"),
@@ -30,10 +28,6 @@ module.exports = {
             options: {
               hmr: process.env.NODE_ENV === 'development',
               reloadAll: true,
-              data: `
-                @import "./src/assets/styles/variables.scss";
-                @import "./src/assets/styles/mixin.scss";
-              `,
             },
           },
             "css-loader",
@@ -55,28 +49,19 @@ module.exports = {
     ]
   },
   
-
-//   performance: {
-//     hints: 'error'
-//   },
   devServer: {
-    contentBase: path.join(__dirname, 'public'), // boolean | string | array, static file location
+    contentBase: path.resolve(__dirname, ''), // boolean | string | array, static file location
     compress: true, // enable gzip compression
     historyApiFallback: true, // true for index.html upon 404, object for multiple paths
     hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
-    // https: false, // true for self-signed, object for cert authority
-    // noInfo: true, // only errors & warns on hot reload
+  
     open:true,
     inline: true,
     stats:"errors-only",
     // ...
   },
   plugins: [
-    // new HtmlWebpackPlugin({
-    //   filename: "index.html",
-    //   template: path.join(__dirname, "public", "index.html")
-    // }),
-
+    
     new MiniCssExtractPlugin({
       filename: "styles/[name].css",
       chunkFilename: "[id].css"

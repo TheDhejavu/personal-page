@@ -1,5 +1,4 @@
 import React , { Component } from "react";
-import { Route ,Switch,  BrowserRouter as Router } from "react-router-dom";
 import Home from "./Home";
 
 class App extends Component{
@@ -8,11 +7,7 @@ class App extends Component{
     }
     render(){
         return(
-                <Router>
-                    <Switch>
-                        <Route exact path={"/"} component={Home}></Route>
-                    </Switch>
-                </Router>
+               <Home/>
         )
     }
 }

@@ -1,0 +1,34 @@
+{
+    "theme":"Dark Mode",
+    "color":"Green",
+    "home":{
+        "fullname":"Akinola Ayodeji",
+        "continent":"West Africa",
+        "country":"Nigeria",
+        "avatar":"public/assets/avatar.png",
+        "summary":"keen interest in artificial intelligence and web technologies. Currently a software engineering intern at patricia"
+    },
+    "about":{
+        "text":"I'm a pragmatic person",
+        "about":"CS student with a keen interest in artificial intelligence and web technologiesCS student with a keen interest in artificial intelligence and web technologies"
+    },
+    "skill":{
+        "text":"On demand skills",
+        "lists":["Public speaking","writing","Research","Data Analysis","Machine Learning","Javascript","Python","Problem Solving","GoLang","React & Redux","Vue & Vuex","Linux","MongoDB","MySQL","NodeJS","Git","Docker","Kurbernetes","Cicle CI","Natural language Processing","Sentimental Analysis"]
+    },
+    "work":{
+        "text":"Innovative projects",
+        "lists":
+    [{
+        "title": "ilegbe.com",
+        "url":"https://k.com",
+        "description":"CS student with a keen interest in artificial intelligence and web technologiesCS student with a keen interest in artificial intelligence and web technologies"
+    }]},
+    "contact":{
+        "text":"on the web",
+        "email":"akinayodeji4all@gmail.com",
+        "github":{"username":"thedejavu","url":"https://k.com"},
+        "twitter":{"username":"thedhejavu","url":"dd"},
+        "linkedin":{"name":"akinola ayodeji","url":"dd"}
+        }
+    }

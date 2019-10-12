@@ -2,42 +2,48 @@
 
 .site-layout__main{
     padding-left:300px;
-    @include MQ($breakpoint-sm){
+    @include MQ($breakpoint-md){
         padding:0;
+    }
+}
+
+.toggle-button{
+    background: none;
+    border:none;
+    font-size:2rem;
+    padding:10px;
+    cursor: pointer;
+    display:none;
+    z-index:9999;
+    position: fixed;
+    outline: none;
+    @include MQ($breakpoint-md){
+        display:block;
     }
 }
 .header{
     position: fixed;
     width:100%;
+    background: #fff;
+    min-height: 70px;
+    z-index: 99;
     width: calc(100% - 300px);
+    @include MQ($breakpoint-md){
+        width:100%;
+    }
     .header-panel{
         position: relative;
     }
-    .toggle-button{
-        background: none;
-        border:none;
-        font-size:2rem;
-        padding:10px;
-        cursor: pointer;
-        display:none;
-        z-index: 9999;
-        position: relative;
-        outline: none;
-        @include MQ($breakpoint-sm){
-            display:block;
-        }
-    }
+    
     .customize-button{
-        background:#fff;
-        border-radius:0px;
         padding:10px 20px;
         font-weight:500;
-        font-size:1rem;
+        font-size:0.8rem;
         margin:10px;
-        box-shadow: 0 10px 20px 0 rgba(0,0,0,0.1);
-        border:none;
+        letter-spacing: 0.2rem;
+        border:1px solid #ddd;
         cursor: pointer;
-        outline: none
+        color:#000;
     }
 }
 .section{
@@ -46,7 +52,7 @@
         padding:100px 20px;
         max-width: 1100px;
         margin: 0 auto;
-        @include MQ($breakpoint-sm){
+        @include MQ($breakpoint-md){
             padding:10px 15px;
         }
     }
@@ -54,30 +60,30 @@
         font-weight: 700;
         font-size: 2.5rem;
         line-height: 3rem;
-        color:$primary-color;
+        color:#000;
    }
    .heading{
-       color:$blue;
+       color:#000;
        padding:5px 0;
    }
    .sub-heading{
        padding:20px 0;
-       @include MQ($breakpoint-sm){
+       @include MQ($breakpoint-md){
             font-size:1.6rem;
             line-height: 2.5rem;
-            font-weight: 500;
+            font-weight: 600;
             font-family: $primary-font-family
         }
    }
    .slant-text{
        font-size:0.8rem;
-       color:$primary-color;
+       color:#000;
        font-style: italic;
-       letter-spacing: 0.4rem;
+       letter-spacing: 0.2rem;
        font-weight: 300;
        opacity: 0.5;
        a{
-           color:$blue;
+            color:#000;
        }
    }
    .text{
@@ -142,9 +148,10 @@
                 margin:10px;
                 border:1px solid #ddd;
                 transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+                border-radius:50px;
                 &:hover{
-                    background:$blue;
-                    border:1px solid $blue;
+                    background:#000;
+                    border:1px solid #000;
                     color:#fff;
                     .uil{
                         color:#fff;
@@ -152,13 +159,6 @@
                 }
             }
         }
-        .uil-github{
-            color:$blue;
-        }
-        .uil-linkedin, .uil-twitter{
-            color:$blue
-        }
-        
     }
 }
 .footer{

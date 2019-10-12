@@ -7,7 +7,7 @@
     position: fixed;
     box-shadow: 0 20px 50px 0 rgba(0,0,0,0.08);
     background: #fff;    
-    z-index: 1;
+    z-index: 9;
     border-right:1px solid rgba(255,255,255,0.08);
 
     .avatar-wrapper{
@@ -90,7 +90,7 @@
             }
           }
           a.active{
-            color:$primary-color;
+            background:rgba(0,0,0,0.08);
           }
       }
     }
@@ -99,9 +99,8 @@
 
 .mobile-sidebar {
     
-    @include MQ($breakpoint-sm){
+    @include MQ($breakpoint-md){
       width:100%;
-      z-index:999;
       height: 100%;
       position: fixed;
       pointer-events: none;
@@ -113,7 +112,7 @@
 }
 
 .mobile-sidebar:before{
-   @include MQ($breakpoint-sm){
+   @include MQ($breakpoint-md){
     content: '';
     width: 100%;
     height: 100%;
@@ -138,7 +137,7 @@
 
 
 .mobile-sidebar__container{
-   @include MQ($breakpoint-sm){
+   @include MQ($breakpoint-md){
     width:100%;
     height:100%;
     background:#fff;
@@ -155,11 +154,8 @@
    }
 }
 .mobile-sidebar--slide-out{
-    // @include MQ(900px, 2000px){
-    //     -webkit-transform: translateX(-102%);
-    //     transform: translateX(-102%);
-    // }
-    @include MQ($breakpoint-sm){
+   
+    @include MQ($breakpoint-md){
         -webkit-transform: translateX(0%);
           transform: translateX(0%);
     }
