@@ -3,4 +3,4 @@ Personal page is a simple command-line tool for generating static personal page 
 
 <!-- [![Circle CI]()]() -->
 
-[![CircleCI](https://circleci.com/gh/TheDhejavu/personal-page.svg?style=svg)](https://circleci.com/gh/TheDhejavu/personal-page)
+[![CircleCI](circleci.com/gh/TheDhejavu/personal-page.svg?style=svg)](https://circleci.com/gh/TheDhejavu/personal-page)
