@@ -19,13 +19,13 @@ Personal page is a simple command-line tool for generating static personal page 
 ## Commands
 These are common Page commands used in various situations:
 
- `page -v --version`        Check package version
- `page -h --help`           Check for command help
- `page create <folder-name>` Create a new personal page
- `page edit `               Edit an existing personal page
- `page reset conf `        Reset an existing personal page configuration 
- `page deploy  `            Deploy a new personal page to github pages
- `page serve `              Serve your new personal page locally;
+ `page -v --version`  - Check package version
+ `page -h --help`     - Check for command help
+ `page create <folder-name>` - Create a new personal page
+ `page edit `              - Edit an existing personal page
+ `page reset conf `        - Reset an existing personal page configuration 
+ `page deploy  `           -  Deploy a new personal page to github pages
+ `page serve `             - Serve your new personal page locally;
  
  ## Getting started
  
