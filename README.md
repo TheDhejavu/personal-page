@@ -11,7 +11,7 @@
 Personal page is a simple command-line tool for generating static personal page that is ready to be served by GitHub pages or any other server. This CLI generates your page from a series of question asked from you. It's customizable and comes with dark and light mode with any secondary color 
 
 ## Demo
-![Demo](https://thedhejavu.github.io)
+(Demo)(https://thedhejavu.github.io)
 
 ## How to install
 `npm install -g personal-page`
@@ -50,7 +50,8 @@ These are common Page commands used in various situations:
  `page edit`
  
  you will prompted for a series of question on the changes you would like to make 
- **NOTE** you have to be inside the root folder your page
+ 
+ **NOTE:** you have to be inside the root folder your page
  
  ### Deploy
  This command deploys your page to github pages by default 
