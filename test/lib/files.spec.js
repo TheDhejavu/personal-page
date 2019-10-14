@@ -8,7 +8,6 @@ describe('File Handler', function() {
   describe("Positive Test Cases", function() {
     const folderName = "template";
     const folderPath = process.cwd()+"/"+folderName;
-    const currentCwd = "personal-page";
     const configFile = "page.config.json";
     const configFilePath = process.cwd()+"/app/src/data/"+configFile;
 
@@ -26,7 +25,7 @@ describe('File Handler', function() {
     
     it('Should return current working directory base', async function() {
       const base = await files.getCurrentDirectoryBase();
-      expect(base).to.equal(currentCwd)
+      expect(base).to.be.a("string")
     });
     
     
