@@ -7,3 +7,4 @@ Personal page is a simple command-line tool for generating static personal page 
 [![npm](https://img.shields.io/npm/v/personal-page/latest)](https://www.npmjs.com/package/personal-page)
 ![minzip](https://img.shields.io/bundlephobia/minzip/personal-page)
 ![vulnerabilities](https://img.shields.io/snyk/vulnerabilities/npm/personal-page)
+![licence](https://img.shields.io/github/license/thedhejavu/personal-page)
