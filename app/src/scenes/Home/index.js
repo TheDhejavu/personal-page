@@ -147,7 +147,7 @@ class Home extends Component{
                 <div>
                 <ul className="contact-lists">
                   <li>
-                    <a href={"to:"+config.contact.email} > <i className='uil uil-envelope'></i> { config.contact.email }</a>
+                    <a href={"mailto:"+config.contact.email} > <i className='uil uil-envelope'></i> { config.contact.email }</a>
                   </li>
                   <li>
                     <a href={config.contact.twitter.url}  target="_blank"> <i className='uil uil-twitter'></i> @{ config.contact.twitter.username }</a>

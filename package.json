@@ -1,5 +1,5 @@
 {
-  "name": "Personal Page",
+  "name": "personal-page",
   "version": "1.0.0",
   "description": "A command line tool for generating and deploying personal page to github pages in less than 10minuntes",
   "main": "index.js",
@@ -10,23 +10,40 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive"
   },
   "keywords": [
     "cli",
-    "create-new"
+    "create",
+    "page"
   ],
   "author": "Akinola Ayodeji",
   "license": "ISC",
   "dependencies": {
+    "@octokit/rest": "^14.0.5",
     "arg": "^4.1.1",
     "chalk": "^2.4.2",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^5.0.0",
     "esm": "^3.2.25",
     "execa": "^2.0.4",
+    "figlet": "^1.2.4",
+    "fs-extra": "^8.1.0",
     "gitignore": "^0.6.0",
     "inquirer": "^7.0.0",
     "listr": "^0.14.3",
+    "mocha-sinon": "^2.1.0",
     "ncp": "^2.0.0",
-    "pkg-install": "^1.0.0"
+    "pkg-install": "^1.0.0",
+    "prettyjson": "^1.2.1",
+    "simple-git": "^1.126.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.1",
+    "chai": "^4.2.0",
+    "sinon": "^7.5.0",
+    "chai-fs": "^2.0.0"
   }
 }

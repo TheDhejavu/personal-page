@@ -2,8 +2,6 @@ const argv = require('minimist')
 const prompt = require("./lib/prompt");
 
 function parseArgumentsIntoOptions(rawArgs) {
-  const commands = ['version','v','folderName','h','help','create','edit','deploy','serve'];
-
   const args = argv(rawArgs.slice(2),{
     boolean:[
       "help",
