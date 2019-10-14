@@ -1,7 +1,7 @@
 {
   "name": "personal-page",
   "version": "1.0.0",
-  "description": "A command line tool for generating and deploying personal page to github pages in less than 10minuntes",
+  "description": "Personal page is a simple command-line tool for generating static personal page that is ready to be served by GitHub pages or any other server",
   "main": "index.js",
   "bin": {
     "create-new": "bin/create-new.js"
