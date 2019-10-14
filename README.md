@@ -38,7 +38,7 @@ These are common Page commands used in various situations:
  ## Getting started
  
  ### Create
- We use the create command to create a new personnal page. You will be prompted for some questions about  yourself via the CLI 
+ Use the create command to create a new personnal page. You will be prompted for some questions about  yourself via the CLI 
  
   `page create <folder-name>`
   
