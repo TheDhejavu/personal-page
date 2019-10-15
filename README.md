@@ -8,7 +8,7 @@
 ![licence](https://img.shields.io/github/license/thedhejavu/personal-page)
 
 ## About
-Personal page is a simple command-line tool for generating static personal page that is ready to be served by GitHub pages or any other server. This CLI generates your page from a series of question asked from you. It's customizable and comes with dark and light mode with any secondary color 
+Personal page is a simple command-line tool for generating static personal page that is ready to be served by GitHub pages or any other server. This CLI generates your page from a series of question asked from you. It's customizable and comes with dark and light mode.
 
 ## Demo
 [Demo](https://thedhejavu.github.io)
@@ -49,16 +49,16 @@ These are common Page commands used in various situations:
  
  `page edit`
  
- you will prompted for a series of question on the changes you would like to make 
+ you will be prompted for a series of question on the changes you would like to make 
  
- **NOTE:** you have to be inside the root folder your page
+ **NOTE:** you have to be inside the root folder of your page
  
  ### Deploy
  This command deploys your page to github pages by default 
  
   `page deploy`
   
- you will prompted to enter your github username and password and a token would be generated for subsequent uses.
+ you will be prompted to enter your github username and password and a token would be generated for subsequent uses.
  
  **NOTE** we don't store your credentials 
  
