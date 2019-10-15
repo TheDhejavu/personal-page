@@ -1,6 +1,6 @@
 {
   "name": "personal-page",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Personal page is a simple command-line tool for generating static personal page that is ready to be served by GitHub pages or any other server",
   "main": "index.js",
   "bin": {
@@ -23,6 +23,7 @@
     "@octokit/rest": "^14.0.4",
     "arg": "^4.1.1",
     "chalk": "^2.4.2",
+    "chdir": "0.0.0",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
     "configstore": "^5.0.0",
