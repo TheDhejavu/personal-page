@@ -75,6 +75,9 @@ These are common Page commands used in various situations:
  ## Contribution
  👍 , would be glad to see you make this tiny tool better
  
-  
+ ## License
+ [MIT](https://github.com/TheDhejavu/personal-page/blob/master/LICENSE)
+
+
  
     
