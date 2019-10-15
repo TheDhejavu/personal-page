@@ -1,10 +1,10 @@
 {
   "name": "personal-page",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "Personal page is a simple command-line tool for generating static personal page that is ready to be served by GitHub pages or any other server",
   "main": "index.js",
   "bin": {
-    "create-new": "bin/create-new.js"
+    "page": "bin/page.js"
   },
   "publishConfig": {
     "access": "public"
@@ -20,7 +20,7 @@
   "author": "Akinola Ayodeji",
   "license": "ISC",
   "dependencies": {
-    "@octokit/rest": "^14.0.5",
+    "@octokit/rest": "^14.0.4",
     "arg": "^4.1.1",
     "chalk": "^2.4.2",
     "clear": "^0.1.0",
@@ -34,7 +34,6 @@
     "inquirer": "^7.0.0",
     "listr": "^0.14.3",
     "mocha-sinon": "^2.1.0",
-    "ncp": "^2.0.0",
     "pkg-install": "^1.0.0",
     "prettyjson": "^1.2.1",
     "simple-git": "^1.126.0",

@@ -27,6 +27,7 @@ function parseArgumentsIntoOptions(rawArgs) {
 }
 
 export async function cli(args) {
+  
   let options = parseArgumentsIntoOptions(args);
   await prompt.promptQuestions( options );
 }
